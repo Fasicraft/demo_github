@@ -7,18 +7,18 @@ public class SwitchDemo2 {
 
 		String name = "Mango";
 		
-		String(name){
-			case "Mango";
+
 				System.out.println("It is a fruit");
+				break;
 				
-			case "Tomato";
+			case "Tomato"
 				System.out.println("It is a vegitable");
 				break;
 			case "Coke";
 				System.out.println("It is soft drink");
 				break;
-		}
+		
 	
 	}
 
-}
+}}

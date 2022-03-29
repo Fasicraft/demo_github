@@ -11,20 +11,20 @@ public class SwitchDemo1 {
 		for (vowel kd : character) {
 			switch (kd) {
 		}
-		int day = 3
+		int day = 3;
 		String dayName;
 		
 		switch (day) {
 		case 1:
 			dayName = "Today is Monday";
 			break;
-		case 2
+		case 2:
 			dayName = "Today is Tusday";
 			break;
-		case 3
+		case 3:
 			
 		}
 		
 	}
 
-}
+}}

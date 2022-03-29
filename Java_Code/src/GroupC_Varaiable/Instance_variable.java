@@ -16,8 +16,8 @@ public class Instance_variable {
 	int b = 25;//local variable
 	}
 	
-	System.out.println("value of b: "+ b);
-	System.out.println("value of age: "+ age);
+	system.out.println("value of b: " + b);
+	system.out.println("value of age: "+ age);
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

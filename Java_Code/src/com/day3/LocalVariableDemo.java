@@ -3,7 +3,7 @@ package com.day3;
 public class LocalVariableDemo {
 	
 	public void methodone(){
-		int j=25;          //<----local variable
+		int j = 25;          //<----local variable
 		System.out.println("value of j:" +j); //25
 	}
 	public void methodtwo() {
@@ -11,7 +11,6 @@ public class LocalVariableDemo {
 		int j = 24;
 	
 		System.out.println("value of k:" + k); //30
-		String age;
 		System.out.println("value of j:" + j); //35
 }
 	public static void main(String[] args) {

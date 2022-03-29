@@ -5,19 +5,19 @@ public class SwitchDemo3 {
 	public enum vowel {a,e,i,o,u}
 
 
-	private static final vowel Vowel = null;
+	static final vowel Vowel = null;
 	
 	
-	public static void main(String[] args) {
+	public static <Vowel> void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Vowel[]characters = vowel.values();
+		Vowel[]characters = Vowel.values();
 		
 		for(Vowel now: characters) {
 			
 			switch(now) {
 			case a:
-				System.out.println("a" is vowel ");
+				System.out.println("a" is vowel");
 				break;
 			case e:
 				System.out.println("e" is vowel ");
